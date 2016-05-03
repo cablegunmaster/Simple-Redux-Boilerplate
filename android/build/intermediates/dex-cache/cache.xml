@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/jasper/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3-64e9299527f654d7b969d817dbdf28ccfbbd86b4.jar" />
+    </item>
+    <item
+        jar="/home/jasper/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-817a0c669c3e64a8b6e1c96be8406f35d5790e23.jar" />
+    </item>
+    <item
+        jar="/home/jasper/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-93331a263811d249d8873ede84fc153da9d9c730.jar" />
+    </item>
+    <item
+        jar="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0d5d69b03cb7d68b81543f6483ed04ccb0e2235b">
+        <dex dex="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/pre-dexed/debug/classes-c32ac3180b48c164d7e6ee22c1cbec8c5945ed7d.jar" />
+    </item>
+    <item
+        jar="/home/jasper/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho-okhttp/1.2.0/6c5c9380e245c4ff5be2b2a49dcbb0200c39798e/stetho-okhttp-1.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6c5c9380e245c4ff5be2b2a49dcbb0200c39798e">
+        <dex dex="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/pre-dexed/debug/stetho-okhttp-1.2.0-5b843e2a2ec4b107e0c49abb6841c633dca96163.jar" />
+    </item>
+    <item
+        jar="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/pre-dexed/debug/classes-1031abfe140800ab7c4174bd5850509788bec94f.jar" />
+    </item>
+    <item
+        jar="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.20.1/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ffc64da9d9261e18ebc8b5e814f3d6a39aa6cbbe">
+        <dex dex="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-1a4f1028e882779ae5039ef07c8fc96c21aad7de.jar" />
+    </item>
+    <item
+        jar="/home/jasper/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.2/2bf96b7aa8b611c177d329452af1dc933e14501c/commons-cli-1.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
+        <dex dex="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/pre-dexed/debug/commons-cli-1.2-8b9100c113c2da33c17b366883b0c804c8596fec.jar" />
+    </item>
+    <item
+        jar="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/pre-dexed/debug/classes-04478680b3b8d6626f655532c9b889030b606480.jar" />
+    </item>
+    <item
+        jar="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="845a5b3a624946b2068963ba656c117fc453701c">
+        <dex dex="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/pre-dexed/debug/classes-8311ced66f8eae8bcbfcc21bead17d15fffc63ed.jar" />
+    </item>
+    <item
+        jar="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="12b885b3ed1fc74a51f671ad40867aa91271843d">
+        <dex dex="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/pre-dexed/debug/classes-10096f3cde42a490fcdee50f7abbd30db7d97097.jar" />
+    </item>
+    <item
+        jar="/home/jasper/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.5.0/e9753b7dcae5deca92e871c5c759067070b07bc/okhttp-ws-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0e9753b7dcae5deca92e871c5c759067070b07bc">
+        <dex dex="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-2.5.0-662bf48cadcfe05341a45d96365baf5f7a230566.jar" />
+    </item>
+    <item
+        jar="/home/jasper/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho/1.2.0/1d6cdb8ce8185b8b23213fad48a83987fb6d2d67/stetho-1.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1d6cdb8ce8185b8b23213fad48a83987fb6d2d67">
+        <dex dex="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/pre-dexed/debug/stetho-1.2.0-0b6082c02f90ebd6a46da845c76b6f36f793f583.jar" />
+    </item>
+    <item
+        jar="/home/jasper/Development/SDK/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-ab68cb0f1145d9ea0a4cfcb1d3228cc6f147255e.jar" />
+    </item>
+    <item
+        jar="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9178570a3a28c95fabd3bc746cd68efe99ad2b47">
+        <dex dex="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/pre-dexed/debug/classes-77e803213a84c93a68420210927998dd882ea753.jar" />
+    </item>
+    <item
+        jar="/home/jasper/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-f1eb53d617521cb270b4a82e0b856cb19ced3134.jar" />
+    </item>
+    <item
+        jar="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-153c9512c0ae0c5cf3c77aa080185e619723fc29.jar" />
+    </item>
+    <item
+        jar="/home/jasper/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/pre-dexed/debug/okio-1.6.0-18ae4a857b60559bc4cfa45a7577b209adb4c966.jar" />
+    </item>
+    <item
+        jar="/home/jasper/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0-57b87f0f73b26f0008af7297e66379dd17f61ba2.jar" />
+    </item>
+    <item
+        jar="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4af24c040b21980e0a80a505816c648e36705bd9">
+        <dex dex="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/pre-dexed/debug/classes-3d4a271550f0894296803635049f6468a3b51330.jar" />
+    </item>
+    <item
+        jar="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.20.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2c06af8f68934cbbbc1153a5ab0064483e6ac692">
+        <dex dex="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/pre-dexed/debug/classes-fce9ebc27af5d9f06155f1680ccabedbdad39cb7.jar" />
+    </item>
+    <item
+        jar="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/pre-dexed/debug/classes-dcf8ab8606881370b4e55cbf5b607f107bed00f8.jar" />
+    </item>
+    <item
+        jar="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3836ecca4e31e18ea8fbae8e822d49777b0db4f7">
+        <dex dex="/home/jasper/Development/EdhCarvingRedux/android/app/build/intermediates/pre-dexed/debug/classes-8ec16e1a520c579c7acb146990effbf99ccb097e.jar" />
+    </item>
+
+</items>
