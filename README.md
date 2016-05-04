@@ -18,7 +18,7 @@ run `npm install`
 
 From the commandline inside the folder run`react-native run-android`
 If connected with a cable run: `adb reverse tcp:8081 tcp:8081`
-to check if a device is found run: `adb devices``
+to check if a device is found run: `adb devices`
 After that to keep running the development server `react-native start`
 
 #### Credits for base example:
