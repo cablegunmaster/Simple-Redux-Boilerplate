@@ -16,3 +16,4 @@ After that to keep running the development server `react-native start`
 
 Based on:
 [rntest](https://github.com/srlopez/rntest)
+

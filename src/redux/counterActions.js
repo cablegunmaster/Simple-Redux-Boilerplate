@@ -1,7 +1,6 @@
 /**
  * React Native App
  * https://github.com/srlopez/rntest
- *
  */
 
 'use strict';

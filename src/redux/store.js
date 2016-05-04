@@ -17,14 +17,18 @@ const createStoreWithMiddleware = applyMiddleware(
 )(createStore);
 
 // Reducers combined in rootReducer
-import counter from './counterReducer'
+import counter from './counterReducer';
 import retrieve from './retrieveReducer';
-import form from './formReducer'
+import data from './dataReducer';
+//import chart from './chartReducer';
+import login from './login/loginReducer';
 
 const rootReducer = combineReducers({
+    login,
     counter,
     retrieve,
-    form
+    data
+    //chart
 });
 
 const configureStore = (initialState: Object = {}): Function  => {

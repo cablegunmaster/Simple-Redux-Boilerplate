@@ -22,7 +22,6 @@ import connectComponent from './AppContainer';
 class App extends Component {
     constructor(props, state){
         super(props, state);
-        //console.dir(this.props);
     }
 
     render () {
@@ -34,21 +33,21 @@ class App extends Component {
                 component: Home
         }}
 
-        renderScene={ (route, navigator) => {
-            const Component = route.component;
-            return (
-                <View style={{flex: 1, marginTop:40}}>
-        <Component
-            navigator={navigator}
-            route={route}
-            {...route.passProps}
-            {...this.props}
+            renderScene={ (route, navigator) => {
+                const Component = route.component;
+                return (
+                    <View style={{flex: 1, marginTop:40}}>
+                    <Component
+                        navigator={navigator}
+                        route={route}
+                        {...route.passProps}
+                        {...this.props}
+                    />
+                    </View>
+                );
+             }}
         />
-        </View>
-        );
-        }}
-    />
-    )
+        )
     }
 }
 
@@ -62,6 +61,6 @@ export default class RootComponent extends Component {
             <Provider store={store}>
             <AppContainer />
             </Provider>
-    )
+        )
     }
 }

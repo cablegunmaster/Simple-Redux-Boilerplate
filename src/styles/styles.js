@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
         fontFamily: 'Avenir',
         fontSize: 40,
         textAlign: 'center',
-        margin: 10,
+        margin: 10
     },
     normal: {
         fontFamily: 'Helvetica',

@@ -9,7 +9,7 @@ import React, {
 
 import styles from '../styles/styles'
 import { EasyRow, EasyButton, EasyLink } from '../components/EasyButton'
-import Counter from '../components/counter'
+import Counter from '../components/Counter'
 
 export default class extends Component {
     render() {

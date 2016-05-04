@@ -12,6 +12,7 @@ import { EasyRow, EasyLink } from '../components/EasyButton'
 import RetrieveMessage from '../components/RetrieveMessage'
 
 export default class extends Component {
+    
     render() {
         return (
             <View style={styles.container}>

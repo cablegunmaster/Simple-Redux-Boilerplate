@@ -9,10 +9,12 @@ import { connect } from "react-redux"
 import { bindActionCreators, bindSte} from 'redux'
 
 
+
+import { actionsCreators as dataActions, fetchData } from './redux/dataActions';
+import { actionsCreators as chartActions, fetchChartData } from './redux/chartActions';
+import { actionsCreators as loginActions, loginUser } from './redux/login/loginActions';
+
 import { actionsCreators as counterActions } from './redux/counterActions'
-//import { actionsCreators as todosActions } from './redux/todosActions'*/
-//import { actionsCreators as dataActions, fetchData } from './redux/dataActions';
-import { actionsCreators as formActions } from './redux/formActions';
 import { actionsCreators as retrieveActions } from './redux/retrieveActions';
 
 //Wrapper to bind state and actions to props on Presentational Component
@@ -29,16 +31,20 @@ import { actionsCreators as retrieveActions } from './redux/retrieveActions';
 export default function (component) {
     return connect(
         //state => state,
-        (state) => ({  // state.xxxx <-- definido en ./store.js (index,js?)
-        formState: state.form,
+        (state) => ({
         retrieveState: state.retrieve,
-        counterState: state.counter
+        counterState: state.counter,
+        dataState: state.data,
+        chartState: state.chart,
+        loginState: state.login
     }),
         //mapDispatchToProps
         (dispatch) => ({
         retrieveActions: bindActionCreators(retrieveActions, dispatch),
-        formActions:  bindActionCreators(formActions, dispatch),
-        counterActions: bindActionCreators(counterActions, dispatch)
-})
+        counterActions: bindActionCreators(counterActions, dispatch),
+        dataActions: bindActionCreators({ fetchData, ...dataActions }, dispatch),
+        chartActions: bindActionCreators({ fetchChartData, ...chartActions }, dispatch),
+        loginActions: bindActionCreators({ loginUser, ...loginActions }, dispatch)
+        })
     )(component)
 }

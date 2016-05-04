@@ -15,38 +15,42 @@ import React, {
 
 import { EasyRow, EasyButton, EasyLink } from '../components/EasyButton'
 import styles from '../styles/styles'
-//import Counter1 from './Counter1'
-//import ToDoList from './ToDoList'
-/*{
- /*<EasyLink label='Counter' name='Counter One' component={Counter1} passProps={{ message: 'Hello World' }}/>
- <EasyLink label='ToDo List' name='ToDo List' component={ToDoList} />
- }*/
 
-import Form from './TetsForm';
 import Counter2 from './Counter2';
 import Retrieve from './Retrieve';
+import ChartView from './ChartView';
+import Login from './Login';
 
 export default class extends Component {
-    /*componentDidMount() {
-        //this.props.dataActions.fetchData();
+
+    //To mount something before it actually shows anything (might give a error back ).
+    componentDidMount() {
+        this.props.dataActions.fetchData();
         //this.props.formActions.update('email','mi@email.com')
-    }*/
+    }
 
     render() {
-        //const { isFetching, message } = this.props.dataState;
+        const { isFetching, message } = this.props.dataState;
 
+        // <EasyRow navigator={this.props.navigator}>
+        //     <EasyLink label='Chart' name='Chart' component={ChartView} />
+        // </EasyRow>
+        
         return (
             <View style={styles.container}>
                 <Text style={styles.title}>
                     Home
                 </Text>
-                <Text style={styles.normal}>{/*isFetching ? "Data" : 'Data loaded'*/}</Text>
-                <Text style={styles.normal}>{/*isFetching ? "Loading..." : this.props.message*/}</Text>
-                <Text>{"\n\n"}</Text>
+                <Text style={styles.normal}>{isFetching ? "Data" : 'Data loaded'}</Text>
+                <Text style={styles.normal}>{isFetching ? "Loading..." : this.props.message}</Text>
 
                 <EasyRow navigator={this.props.navigator}>
-                    <EasyLink label='Go to Form' name='Form' component={Form} />
+                    <EasyLink label='Login' name='login' component={Login} />
+                </EasyRow>
+                <EasyRow navigator={this.props.navigator}>
                     <EasyLink label='Go to Counter' name='Counter' component={Counter2} />
+                </EasyRow>
+                <EasyRow navigator={this.props.navigator}>
                     <EasyLink label='Go to Message' name='retrieve' component={Retrieve} />
                 </EasyRow>
             </View>

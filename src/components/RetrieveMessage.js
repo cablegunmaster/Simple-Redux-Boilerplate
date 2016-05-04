@@ -30,7 +30,6 @@ export default class Counter extends Component{
                     <EasyButton label=' New_message ' onPress={() => {new_message()}} />
                     <EasyButton label=' update_message ' onPress={() => {updated_message()}} />
                 </EasyRow>
-
             </View>
         )
     }
